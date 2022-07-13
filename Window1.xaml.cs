@@ -27,7 +27,7 @@ namespace ProgramowanieObiektowe
 
         private void TabelaDuża_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            po
+            
         }
 
         private void TabelaMała_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -38,7 +38,7 @@ namespace ProgramowanieObiektowe
         public void PobierzDane()
         {
             string slq = "SELECT * FROM Pracownicy";
-
+        }
     }
 }
-}
+
