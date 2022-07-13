@@ -5,11 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProgramowanieObiektowe"
         mc:Ignorable="d"
+        
         Title="Rejestracja" Height="506" Width="805">
     <Grid Background="#FF8CB1F6">
         <Button x:Name="Zatwierdzenie" Content="Zajerestruj się" HorizontalAlignment="Left" Height="76" Margin="241,348,0,0" VerticalAlignment="Top" Width="325" FontSize="36" Click="Zatwierdzenie_Click"/>
+        <TextBox x:Name="LoginRejestracja" HorizontalAlignment="Left" Height="66" Margin="437,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="324" FontSize="48" TextChanged="LoginRejestracja_TextChanged"/>
+        <TextBox x:Name="HasłoRejestracja" HorizontalAlignment="Left" Height="58" TextWrapping="Wrap" VerticalAlignment="Top" Width="324" FontSize="48" TextChanged="HasłoRejestracja_TextChanged" Margin="437,276,0,0"/>
         <Label x:Name="WpiszLogin" Content="Wpisz Login" HorizontalAlignment="Left" Height="101" Margin="10,161,0,0" VerticalAlignment="Top" Width="321" FontSize="48"/>
         <Label x:Name="WpiszHasło" Content="Wpisz Hasło" HorizontalAlignment="Left" Height="76" Margin="10,267,0,0" VerticalAlignment="Top" Width="321" FontSize="48"/>
         <Label x:Name="Wpisz_Imię" Content="Wpisz Imię" HorizontalAlignment="Left" Height="93" Margin="10,63,0,0" VerticalAlignment="Top" Width="321" FontSize="48"/>
+        <TextBox x:Name="ImięRejestarcja" HorizontalAlignment="Left" Height="66" Margin="437,63,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="324" FontSize="48" TextChanged="ImięRejestarcja_TextChanged"/>
+
     </Grid>
 </Window>

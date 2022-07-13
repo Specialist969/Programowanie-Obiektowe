@@ -21,8 +21,20 @@ namespace ProgramowanieObiektowe
     {
         public Rejestracja()
         {
-            
+            InitializeComponent();
+        }
+        private void ImięRejestarcja_TextChanged(object sender, TextChangedEventArgs e)
+        {
 
+        }
+
+        private void LoginRejestracja_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void HasłoRejestracja_TextChanged(object sender, TextChangedEventArgs e)
+        {
 
         }
 
