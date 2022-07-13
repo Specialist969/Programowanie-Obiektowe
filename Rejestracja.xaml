@@ -15,7 +15,6 @@
         <Label x:Name="WpiszHasło" Content="Wpisz Hasło" HorizontalAlignment="Left" Height="76" Margin="10,267,0,0" VerticalAlignment="Top" Width="321" FontSize="48"/>
         <Label x:Name="Wpisz_Imię" Content="Wpisz Imię" HorizontalAlignment="Left" Height="93" Margin="10,63,0,0" VerticalAlignment="Top" Width="321" FontSize="48"/>
         <TextBox x:Name="ImięRejestarcja" HorizontalAlignment="Left" Height="66" Margin="437,63,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="324" FontSize="48" TextChanged="ImięRejestarcja_TextChanged"/>
-        <Button x:Name="Wróc" Content="Wróć" HorizontalAlignment="Left" Height="56" Margin="650,424,0,0" VerticalAlignment="Top" Width="111" FontSize="18" Click="Wróc_Click"/>
 
     </Grid>
 </Window>

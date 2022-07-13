@@ -44,9 +44,6 @@ namespace ProgramowanieObiektowe
          
         }
 
-        private void Wróc_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
+        
     }
 }
