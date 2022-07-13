@@ -29,5 +29,20 @@ namespace ProgramowanieObiektowe
         {
 
         }
+
+        private void Login_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Hasło_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Logowanie_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
