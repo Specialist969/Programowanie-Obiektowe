@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Windows.Navigation;
 
 namespace ProgramowanieObiektowe
 {
@@ -25,7 +26,7 @@ namespace ProgramowanieObiektowe
         }
         private void ImięRejestarcja_TextChanged(object sender, TextChangedEventArgs e)
         {
-
+            
         }
 
         private void LoginRejestracja_TextChanged(object sender, TextChangedEventArgs e)
@@ -43,5 +44,9 @@ namespace ProgramowanieObiektowe
          
         }
 
+        private void Wróc_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
