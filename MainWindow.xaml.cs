@@ -24,5 +24,10 @@ namespace ProgramowanieObiektowe
         {
             InitializeComponent();
         }
+
+        private void Rejestracja_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
