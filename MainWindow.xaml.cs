@@ -24,22 +24,25 @@ namespace ProgramowanieObiektowe
         {
             InitializeComponent();
         }
-
+        // Przycisk umożliwienie rejestracji nowego użytkownika
         private void Rejestracja_Click(object sender, RoutedEventArgs e)
         {
 
         }
 
+        // Pole do wprowadzenia loginu
         private void Login_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }
 
+        // Pole do wprowadzeniu hasła
         private void Hasło_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }
 
+        // Przycisk umożliwienie zalogowaniu się po uzupełnieniu pół Login oraz Hasło
         private void Logowanie_Click(object sender, RoutedEventArgs e)
         {
 
