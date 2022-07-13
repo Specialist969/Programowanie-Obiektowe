@@ -27,7 +27,8 @@ namespace ProgramowanieObiektowe
         // Przycisk umożliwienie rejestracji nowego użytkownika
         private void Rejestracja_Click(object sender, RoutedEventArgs e)
         {
-
+            Rejestracja rej = new Rejestracja();
+            rej.Show();
         }
 
         // Pole do wprowadzenia loginu

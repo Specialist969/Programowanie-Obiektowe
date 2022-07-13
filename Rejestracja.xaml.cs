@@ -11,34 +11,37 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-//using MySql.Data.MySqlClient;
 
 namespace ProgramowanieObiektowe
 {
     /// <summary>
-    /// Logika interakcji dla klasy Window1.xaml
+    /// Logika interakcji dla klasy Rejestracja.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class Rejestracja : Window
     {
-        public Window1()
+        public Rejestracja()
         {
             InitializeComponent();
         }
 
-        private void TabelaDuża_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            po
-        }
-
-        private void TabelaMała_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void LoginRejestracja_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }
 
-        public void PobierzDane()
+        private void HasłoRejestracja_TextChanged(object sender, TextChangedEventArgs e)
         {
-            string slq = "SELECT * FROM Pracownicy";
 
+        }
+
+        private void Zatwierdzenie_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ImięRejestarcja_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
-}
 }
