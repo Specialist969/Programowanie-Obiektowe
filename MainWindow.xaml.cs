@@ -34,18 +34,25 @@ namespace ProgramowanieObiektowe
         // Pole do wprowadzenia loginu
         private void Login_TextChanged(object sender, TextChangedEventArgs e)
         {
+            string log = Console.ReadLine();
 
         }
 
         // Pole do wprowadzeniu hasła
         private void Hasło_TextChanged(object sender, TextChangedEventArgs e)
         {
+            string hs = Console.ReadLine();
 
         }
 
         // Przycisk umożliwienie zalogowaniu się po uzupełnieniu pół Login oraz Hasło
         private void Logowanie_Click(object sender, RoutedEventArgs e)
         {
+            if (log  )
+            {
+
+            }
+
             Window1 rej = new Window1();
             rej.Show();
         }
