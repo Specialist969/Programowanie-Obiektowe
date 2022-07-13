@@ -21,17 +21,21 @@ namespace ProgramowanieObiektowe
     {
         public Rejestracja()
         {
-            InitializeComponent();
+            
         }
 
-        private void LoginRejestracja_TextChanged(object sender, TextChangedEventArgs e)
+        private string LoginRejestracja_TextChanged(object sender, TextChangedEventArgs e)
         {
-
+            string LogR = Console.ReadLine();
+            LogR = new string(LogR);
+            return LogR;
         }
 
-        private void HasłoRejestracja_TextChanged(object sender, TextChangedEventArgs e)
+        private string HasłoRejestracja_TextChanged(object sender, TextChangedEventArgs e)
         {
-
+            string HasR = Console.ReadLine();
+            HasR = new string(HasR);
+            return HasR;
         }
 
         private void Zatwierdzenie_Click(object sender, RoutedEventArgs e)

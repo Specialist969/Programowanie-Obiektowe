@@ -36,6 +36,7 @@ namespace ProgramowanieObiektowe
         {
             string log = Console.ReadLine();
 
+
         }
 
         // Pole do wprowadzeniu hasła
@@ -48,10 +49,7 @@ namespace ProgramowanieObiektowe
         // Przycisk umożliwienie zalogowaniu się po uzupełnieniu pół Login oraz Hasło
         private void Logowanie_Click(object sender, RoutedEventArgs e)
         {
-            if (log  )
-            {
-
-            }
+           
 
             Window1 rej = new Window1();
             rej.Show();
