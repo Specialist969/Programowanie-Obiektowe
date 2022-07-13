@@ -22,9 +22,11 @@ namespace ProgramowanieObiektowe
         public Rejestracja()
         {
             
+
+
         }
 
-        private string LoginRejestracja_TextChanged(object sender, TextChangedEventArgs e)
+        private string LoginRejestracja_TextChanged(object sender, TextChangedEventArgs e,)
         {
             string LogR = Console.ReadLine();
             LogR = new string(LogR);
@@ -40,12 +42,17 @@ namespace ProgramowanieObiektowe
 
         private void Zatwierdzenie_Click(object sender, RoutedEventArgs e)
         {
+            if (LogR)
+            {
 
+            }
         }
 
-        private void ImięRejestarcja_TextChanged(object sender, TextChangedEventArgs e)
+        private string ImięRejestarcja_TextChanged(object sender, TextChangedEventArgs e)
         {
-
+            string ImieR = Console.ReadLine();
+            ImieR = new string(ImieR);
+            return ImieR;
         }
     }
 }

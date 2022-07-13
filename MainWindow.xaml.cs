@@ -49,7 +49,10 @@ namespace ProgramowanieObiektowe
         // Przycisk umożliwienie zalogowaniu się po uzupełnieniu pół Login oraz Hasło
         private void Logowanie_Click(object sender, RoutedEventArgs e)
         {
-           
+            if (Login_TextChanged == null && Hasło_TextChanged == null)
+            {
+                MessageBox.Show("Niepoprawny Login albo Hasło");
+            }
 
             Window1 rej = new Window1();
             rej.Show();
