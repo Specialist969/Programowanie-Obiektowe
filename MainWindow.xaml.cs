@@ -20,6 +20,7 @@ namespace ProgramowanieObiektowe
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
@@ -54,8 +55,13 @@ namespace ProgramowanieObiektowe
                 MessageBox.Show("Niepoprawny Login albo Hasło");
             }
 
-            Window1 rej = new Window1();
-            rej.Show();
+            
+                Window1 rej = new Window1();
+                rej.Show();
+            
+            
+
+            
         }
     }
 }

@@ -32,7 +32,7 @@ namespace ProgramowanieObiektowe
 
         private void TabelaMała_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
+            
         }
 
         public void PobierzDane()

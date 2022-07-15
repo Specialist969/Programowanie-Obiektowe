@@ -7,4 +7,17 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Model1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+    </None>
+    <None Update="Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+    </None>
+  </ItemGroup>
+
 </Project>

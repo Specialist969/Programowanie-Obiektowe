@@ -8,6 +8,7 @@
         Title="Window1" Height="450" Width="800">
     <Grid>
         <DataGrid x:Name="TabelaMała" HorizontalAlignment="Left" Height="227" Margin="10,170,0,0" VerticalAlignment="Top" Width="411" d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="TabelaMała_SelectionChanged"/>
+        <DataGrid HorizontalAlignment="Left" Height="218" Margin="426,175,0,0" VerticalAlignment="Top" Width="328" d:ItemsSource="{d:SampleData ItemCount=5}"/>
 
     </Grid>
 </Window>
