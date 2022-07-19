@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="Window1" Height="450" Width="800">
     <Grid>
-        <DataGrid x:Name="TabelaMała" HorizontalAlignment="Left" Height="227" Margin="10,170,0,0" VerticalAlignment="Top" Width="539" d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="TabelaMała_SelectionChanged"/>
-        <DataGrid HorizontalAlignment="Left" Height="223" Margin="595,170,0,0" VerticalAlignment="Top" Width="159" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+        <DataGrid x:Name="TabelaMała" HorizontalAlignment="Left" Height="227" Margin="10,170,0,0" VerticalAlignment="Top" Width="241" d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="TabelaMała_SelectionChanged"/>
+        <DataGrid x:Name="TabelaDuża" HorizontalAlignment="Left" Height="223" Margin="292,170,0,0" VerticalAlignment="Top" Width="462" d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="TabelaDuża_SelectionChanged_1"/>
         <CheckBox Content="CheckBox" HorizontalAlignment="Left" Height="16" Margin="621,43,0,0" VerticalAlignment="Top" Width="107"/>
         <CheckBox Content="CheckBox" HorizontalAlignment="Left" Height="14" Margin="621,97,0,0" VerticalAlignment="Top" Width="107"/>
         <CheckBox Content="CheckBox" HorizontalAlignment="Left" Height="25" Margin="35,104,0,0" VerticalAlignment="Top" Width="109"/>
