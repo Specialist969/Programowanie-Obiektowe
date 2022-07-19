@@ -6,18 +6,15 @@
         xmlns:local="clr-namespace:ProgramowanieObiektowe"
         mc:Ignorable="d"
         
-        Title="Rejestracja" Height="506" Width="809">
-    <Grid Margin="0,-70,125,-216">
-        <Grid.Background>
-            <ImageBrush ImageSource="/filmresestracja.jpg"/>
-        </Grid.Background>
-        <Button x:Name="Zatwierdzenie" Content="Zajerestruj się" HorizontalAlignment="Center" Height="76" Margin="0,620,0,0" VerticalAlignment="Top" Width="324" FontSize="36" Click="Zatwierdzenie_Click"/>
-        <TextBox x:Name="LoginRejestracja" HorizontalAlignment="Left" Height="66" Margin="168,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="324" FontSize="48" TextChanged="LoginRejestracja_TextChanged"/>
-        <TextBox x:Name="HasłoRejestracja" HorizontalAlignment="Left" Height="58" TextWrapping="Wrap" VerticalAlignment="Top" Width="324" FontSize="48" TextChanged="HasłoRejestracja_TextChanged" Margin="171,532,0,0"/>
-        <Label x:Name="WpiszLogin" Content="Wpisz Login" HorizontalAlignment="Left" Height="101" Margin="172,216,0,0" VerticalAlignment="Top" Width="322" FontSize="48"/>
-        <Label x:Name="WpiszHasło" Content="Wpisz Hasło" HorizontalAlignment="Left" Height="76" Margin="171,429,0,0" VerticalAlignment="Top" Width="321" FontSize="48"/>
+        Title="Rejestracja" Height="626" Width="635">
+    <Grid Margin="0,0,0,-6">
+        <Button x:Name="Zatwierdzenie" Content="Zajerestruj się" HorizontalAlignment="Center" Height="76" Margin="0,509,0,0" VerticalAlignment="Top" Width="324" FontSize="36" Click="Zatwierdzenie_Click"/>
+        <TextBox x:Name="LoginRejestracja" HorizontalAlignment="Center" Height="66" TextWrapping="Wrap" VerticalAlignment="Center" Width="324" FontSize="48" TextChanged="LoginRejestracja_TextChanged"/>
+        <TextBox x:Name="HasłoRejestracja" HorizontalAlignment="Left" Height="58" TextWrapping="Wrap" VerticalAlignment="Top" Width="324" FontSize="48" TextChanged="HasłoRejestracja_TextChanged" Margin="159,427,0,0"/>
+        <Label x:Name="WpiszLogin" Content="Wpisz Login" HorizontalAlignment="Left" Height="101" Margin="158,169,0,0" VerticalAlignment="Top" Width="322" FontSize="48"/>
+        <Label x:Name="WpiszHasło" Content="Wpisz Hasło" HorizontalAlignment="Left" Height="76" Margin="159,346,0,0" VerticalAlignment="Top" Width="321" FontSize="48"/>
         <Label x:Name="Wpisz_Imię" Content="Wpisz Imię" HorizontalAlignment="Left" Height="93" Margin="200,10,0,0" VerticalAlignment="Top" Width="321" FontSize="48"/>
-        <TextBox x:Name="ImięRejestarcja" HorizontalAlignment="Center" Height="66" Margin="0,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="324" FontSize="48" TextChanged="ImięRejestarcja_TextChanged"/>
+        <TextBox x:Name="ImięRejestarcja" HorizontalAlignment="Center" Height="66" Margin="0,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="324" FontSize="48" TextChanged="ImięRejestarcja_TextChanged"/>
 
     </Grid>
 </Window>
