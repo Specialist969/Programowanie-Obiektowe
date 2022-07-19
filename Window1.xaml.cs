@@ -27,7 +27,7 @@ namespace ProgramowanieObiektowe
 
         private void TabelaDuża_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            
+           
         }
 
         private void TabelaMała_SelectionChanged(object sender, SelectionChangedEventArgs e)
