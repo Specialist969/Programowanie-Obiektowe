@@ -6,12 +6,12 @@
         xmlns:local="clr-namespace:ProgramowanieObiektowe"
         mc:Ignorable="d"
         
-        Title="MainWindow" Height="505" Width="855">
+        Title="MainWindow" Height="508" Width="855">
     <Grid Margin="0,0,0,10">
         <Grid.Background>
             <ImageBrush ImageSource="/filmytło.jpg"/>
         </Grid.Background>
-        <Button x:Name="Rejestracja" Content="Rejestracja" HorizontalAlignment="Left" Height="54" Margin="610,425,0,0" VerticalAlignment="Top" Width="217" FontSize="36" Click="Rejestracja_Click" Background="#FFBFBFBF"/>
+        <Button x:Name="Rejestracja" Content="Rejestracja" HorizontalAlignment="Left" Height="54" Margin="608,415,0,0" VerticalAlignment="Top" Width="217" FontSize="36" Click="Rejestracja_Click" Background="#FFBFBFBF"/>
         <Label x:Name="Tekst" Content="Witamy w serwisie Treningowym" HorizontalAlignment="Center" Height="75" Margin="0,51,0,0" VerticalAlignment="Top" Width="717" FontSize="48" FontStretch="Medium" FontFamily="Lato" FontWeight="Bold"/>
         <TextBox x:Name="Login" HorizontalAlignment="Left" Height="53" Margin="318,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="342" FontSize="36" TextChanged="Login_TextChanged" Background="#FFD4D4D4"/>
         <TextBox x:Name="Hasło" HorizontalAlignment="Left" Height="53" Margin="318,251,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="342" FontSize="36" TextChanged="Hasło_TextChanged" Background="#FFD7D7D7"/>

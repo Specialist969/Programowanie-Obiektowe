@@ -21,6 +21,8 @@ namespace ProgramowanieObiektowe
     public partial class MainWindow : Window
     {
 
+        
+
         public MainWindow()
         {
             InitializeComponent();
@@ -36,6 +38,7 @@ namespace ProgramowanieObiektowe
         private void Login_TextChanged(object sender, TextChangedEventArgs e)
         {
             string log = Console.ReadLine();
+
 
 
         }
@@ -54,7 +57,10 @@ namespace ProgramowanieObiektowe
             {
                 MessageBox.Show("Niepoprawny Login albo Hasło");
             }
+            //else if ()
+            //{
 
+            //}
             
                 Window1 rej = new Window1();
                 rej.Show();
