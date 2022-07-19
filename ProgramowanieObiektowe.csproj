@@ -8,7 +8,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="filmresestracja.jpg" />
+    <None Remove="filmytło.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="EntityFramework" Version="6.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="filmresestracja.jpg" />
+    <Resource Include="filmytło.jpg" />
   </ItemGroup>
 
   <ItemGroup>
