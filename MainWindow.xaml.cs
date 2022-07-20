@@ -20,8 +20,7 @@ namespace ProgramowanieObiektowe
     /// </summary>
     public partial class MainWindow : Window
     {
-
-        
+        private object hs;
 
         public MainWindow()
         {
@@ -48,6 +47,7 @@ namespace ProgramowanieObiektowe
         {
             string hs = Console.ReadLine();
 
+
         }
 
         // Przycisk umożliwienie zalogowaniu się po uzupełnieniu pół Login oraz Hasło
@@ -57,13 +57,14 @@ namespace ProgramowanieObiektowe
             {
                 MessageBox.Show("Niepoprawny Login albo Hasło");
             }
-            //else if ()
-            //{
-
-            //}
-            
+            else if (hs == "1234")
+            {
                 Window1 rej = new Window1();
                 rej.Show();
+            }
+
+            //Window1 rej = new Window1();
+            //    rej.Show();
             
             
 
