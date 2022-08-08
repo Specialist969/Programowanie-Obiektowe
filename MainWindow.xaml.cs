@@ -66,6 +66,8 @@ namespace ProgramowanieObiektowe
             else
             {
                 MessageBox.Show("Niepoprawny Login albo Hasło");
+
+                this.Close();
             }
 
             //if (Login_TextChanged == null && Hasło_TextChanged == null)
