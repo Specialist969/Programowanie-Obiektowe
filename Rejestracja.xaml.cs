@@ -41,7 +41,19 @@ namespace ProgramowanieObiektowe
 
         private void Zatwierdzenie_Click(object sender, RoutedEventArgs e)
         {
-         
+
+            string imie = this.ImięRejestarcja.Text;
+
+            string login = this.LoginRejestracja.Text;
+
+            string haslo = this.HasłoRejestracja.Text;
+
+
+
+
+
+
+
         }
 
         
